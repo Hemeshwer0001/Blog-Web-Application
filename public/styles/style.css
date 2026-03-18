@@ -1,0 +1,38 @@
+html,body{
+    height: 100%;
+    background-color: #d0ddec;
+}
+
+.title{
+    background-color: #00ABE4;
+}
+
+.white-font{
+    color: white;
+}
+
+.page-wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex:1;
+}
+
+.bring-center{
+    text-align: center;
+}
+
+
+.blog-title{
+    color: blue;
+    margin: 15px;
+}
+
+.blog-body{
+    color:rgb(48, 107, 131);
+    font-weight: bold;
+    margin: 25px;
+}
