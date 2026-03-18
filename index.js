@@ -5,9 +5,9 @@ const app = new express();
 const port = 3000;
 
 const db = new pg.Client({
-    user: "hemeshwer",
-    host: "localhost",
-    database: "web_dev",
+    user: "#", // use you username for the database
+    host: "localhost", // for testing locally
+    database: "#", // use you database name 
     password: "#", // use your database password here
     port: 5432
 })
